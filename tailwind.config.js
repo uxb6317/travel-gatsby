@@ -2,10 +2,10 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        "(screen-16)": "calc(100vh - 4rem)",
+        "screen-16": "calc(100vh - 4rem)",
       },
       minHeight: {
-        "(screen-16)": "calc(100vh - 4rem)",
+        "screen-16": "calc(100vh - 4rem)",
       },
       colors: {
         "smoke-darkest": "rgba(0, 0, 0, 0.9)",

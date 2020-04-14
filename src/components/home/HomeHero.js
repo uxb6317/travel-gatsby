@@ -17,7 +17,7 @@ const HomeHero = () => {
   `)
 
   return (
-    <div className="w-100 h-(screen-16)">
+    <div className="w-100 h-screen-16">
       <BackgroundImage
         Tag="section"
         fluid={[
