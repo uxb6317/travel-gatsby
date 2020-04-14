@@ -1,0 +1,57 @@
+/*! purgecss start ignore */
+@tailwind base;
+body {
+  @apply text-gray-900;
+}
+
+@tailwind components;
+.primary-transition {
+  @apply transition duration-200 ease-out;
+}
+
+.btn {
+  @apply uppercase py-2 px-4 primary-transition;
+}
+
+.btn-lg {
+  @apply py-3 px-5 text-lg tracking-widest;
+}
+
+.btn-xl {
+  @apply py-4 px-6 text-xl tracking-widest;
+}
+
+.btn-clear {
+  @apply border-2 bg-transparent text-white;
+}
+
+.btn-clear:hover {
+  @apply bg-fog-lighter;
+}
+
+.btn-green {
+  @apply bg-green-500 text-white;
+}
+
+.btn-green:hover {
+  @apply bg-green-400;
+}
+
+.section {
+  @apply max-w-screen-xl mx-auto flex flex-col items-center my-10 py-10 px-6;
+}
+
+.input-field {
+  @apply mb-4 flex flex-col;
+}
+
+.label {
+  @apply text-green-500 font-semibold mb-1;
+}
+
+.input {
+  @apply border border-gray-500 px-4 py-2;
+}
+
+/*! purgecss end ignore */
+@tailwind utilities;
