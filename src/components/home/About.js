@@ -18,10 +18,10 @@ const About = () => {
   `)
 
   return (
-    <section className="section">
+    <section className="section section-spaced xl:px-0">
       <Title title="about" subtitle="us" />
       <div className="flex flex-col md:flex-row w-full mt-10">
-        <div className="w-full mr-6 md:max-w-screen-md">
+        <div className="w-full mr-6 rounded-lg overflow-hidden md:max-w-screen-md">
           <Image fluid={data.file.childImageSharp.fluid} />
         </div>
         <div className="flex flex-col">

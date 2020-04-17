@@ -6,7 +6,7 @@ import socialIcons from "../constants/social-icons"
 
 const Footer = () => {
   return (
-    <div className="bg-green-500 text-white">
+    <div className="bg-purple-700 text-white">
       <footer className="max-w-screen-xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center">
         <ul className="flex">
           {links.map((link, index) => (

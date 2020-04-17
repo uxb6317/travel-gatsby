@@ -6,3 +6,4 @@
 
 // You can delete this file if you're not using it
 import "./src/styles/style.css"
+import "react-responsive-carousel/lib/styles/carousel.min.css"

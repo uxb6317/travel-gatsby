@@ -3,7 +3,7 @@ import Title from "../Title"
 
 const Contact = () => {
   return (
-    <div className="section">
+    <div className="section section-spaced flex flex-col items-center">
       <Title title="contact" subtitle="us" />
       <div className="w-full mt-10">
         <form
